@@ -20,6 +20,7 @@ const Login: React.FC = () => {
   const [registerName, setRegisterName] = useState('');
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState<{ email?: string; password?: string; name?: string }>({});
+  const [activeTab, setActiveTab] = useState('login'); // Add state to track active tab
 
   // Get the redirect path from location state, or default to home
   const from = location.state?.from || '/';
@@ -122,7 +123,7 @@ const Login: React.FC = () => {
         });
         
         // Switch to login tab
-        document.querySelector('[data-state="inactive"][data-value="login"]')?.click();
+        setActiveTab('login');
         setEmail(registerEmail);
       }
       
@@ -142,7 +143,7 @@ const Login: React.FC = () => {
           </p>
         </div>
         
-        <Tabs defaultValue="login">
+        <Tabs defaultValue="login" value={activeTab} onValueChange={setActiveTab}>
           <TabsList className="grid w-full grid-cols-2 mb-6">
             <TabsTrigger value="login">Đăng nhập</TabsTrigger>
             <TabsTrigger value="register">Đăng ký</TabsTrigger>

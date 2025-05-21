@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
-import { User, Check, X, ShoppingBag, DollarSign, Settings } from 'lucide-react';
+import { User, Check, X, ShoppingBag, DollarSign, Settings, Star } from 'lucide-react';
 import shopsData from '@/data/shops.json';
 import reviewsData from '@/data/reviews.json';
 import subscriptionsData from '@/data/subscriptions.json';

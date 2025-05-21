@@ -1,15 +1,16 @@
-
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
-import { Calendar, Edit, User, ThumbsUp, Calendar as CalendarIcon } from 'lucide-react';
+import { Calendar, Edit, User, ThumbsUp, Calendar as CalendarIcon, Check, Star } from 'lucide-react';
 import shopsData from '@/data/shops.json';
 import bookingsData from '@/data/bookings.json';
 import reviewsData from '@/data/reviews.json';
 import subscriptionsData from '@/data/subscriptions.json';
+import usersData from '@/data/users.json';
+import RatingStars from '@/components/RatingStars';
 
 const ShopDashboard: React.FC = () => {
   const navigate = useNavigate();
