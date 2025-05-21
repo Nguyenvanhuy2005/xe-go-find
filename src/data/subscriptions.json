@@ -1,0 +1,21 @@
+
+[
+  {
+    "shopId": "shop-001",
+    "plan": "premium",
+    "startDate": "2023-04-15T00:00:00",
+    "endDate": "2023-07-15T00:00:00"
+  },
+  {
+    "shopId": "shop-002",
+    "plan": "premium",
+    "startDate": "2023-05-01T00:00:00",
+    "endDate": "2023-06-01T00:00:00"
+  },
+  {
+    "shopId": "shop-005",
+    "plan": "premium",
+    "startDate": "2023-03-10T00:00:00",
+    "endDate": "2023-09-10T00:00:00"
+  }
+]

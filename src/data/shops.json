@@ -1,0 +1,150 @@
+
+[
+  {
+    "id": "shop-001",
+    "name": "Garage Minh Auto",
+    "address": "123 Nguyễn Trãi, Quận 1, TP.HCM",
+    "service_area": ["Quận 1", "Quận 3", "Quận 5"],
+    "services": ["Ô tô", "Bảo dưỡng", "Thay lốp", "Sửa chữa động cơ"],
+    "description": "Garage Minh Auto chuyên sửa chữa và bảo dưỡng các dòng xe ô tô với hơn 10 năm kinh nghiệm. Đội ngũ kỹ thuật viên có tay nghề cao, trang thiết bị hiện đại.",
+    "isPremium": true,
+    "rating": 4.8,
+    "openHours": "8:00 - 18:00",
+    "phone": "0901234567",
+    "type": "fixed",
+    "images": [
+      "https://images.unsplash.com/photo-1486006920555-c77dcf18193c",
+      "https://images.unsplash.com/photo-1507437548885-3f94307691ce"
+    ],
+    "offers": [
+      "Giảm 10% cho khách hàng mới",
+      "Miễn phí kiểm tra xe"
+    ],
+    "priceReference": {
+      "Bảo dưỡng cơ bản": "500.000đ - 1.500.000đ",
+      "Thay lốp": "800.000đ - 2.000.000đ",
+      "Sửa chữa động cơ": "Từ 1.000.000đ"
+    },
+    "status": "active"
+  },
+  {
+    "id": "shop-002",
+    "name": "Sửa Xe Tận Nơi Hoàng Anh",
+    "address": null,
+    "service_area": ["Quận 2", "Quận 9", "Thủ Đức"],
+    "services": ["Xe máy", "Ô tô", "Thay lốp", "Cứu hộ"],
+    "description": "Dịch vụ sửa xe tận nơi 24/7, phục vụ cả ô tô và xe máy. Đội ngũ thợ chuyên nghiệp, giá cả hợp lý, phục vụ tận tình.",
+    "isPremium": true,
+    "rating": 4.6,
+    "openHours": "0:00 - 24:00",
+    "phone": "0909876543",
+    "type": "mobile",
+    "images": [
+      "https://images.unsplash.com/photo-1599256871168-f7dba2fd6ca1"
+    ],
+    "offers": [
+      "Giảm 15% phí dịch vụ ban đêm",
+      "Miễn phí kiểm tra"
+    ],
+    "priceReference": {
+      "Sửa xe máy cơ bản": "100.000đ - 500.000đ",
+      "Cứu hộ xe máy": "200.000đ - 500.000đ",
+      "Cứu hộ ô tô": "500.000đ - 1.000.000đ"
+    },
+    "status": "active"
+  },
+  {
+    "id": "shop-003",
+    "name": "Garage Thành Công",
+    "address": "456 Lý Thái Tổ, Quận 10, TP.HCM",
+    "service_area": ["Quận 10", "Quận 11", "Quận Tân Bình"],
+    "services": ["Ô tô", "Bảo dưỡng", "Sơn xe", "Dọn nội thất"],
+    "description": "Garage chuyên nghiệp với dịch vụ sửa chữa, bảo dưỡng và làm đẹp xe ô tô. Đảm bảo chất lượng với giá cả hợp lý.",
+    "isPremium": false,
+    "rating": 4.2,
+    "openHours": "7:30 - 17:30",
+    "phone": "0908765432",
+    "type": "fixed",
+    "images": [
+      "https://images.unsplash.com/photo-1498887960847-2a5e46312788"
+    ],
+    "offers": [],
+    "priceReference": {
+      "Bảo dưỡng": "600.000đ - 2.000.000đ",
+      "Sơn xe": "Từ 5.000.000đ"
+    },
+    "status": "active"
+  },
+  {
+    "id": "shop-004",
+    "name": "Tiệm Sửa Xe Máy Hải",
+    "address": "78 Nguyễn Huệ, Quận 1, TP.HCM",
+    "service_area": ["Quận 1", "Quận 4"],
+    "services": ["Xe máy", "Thay phụ tùng", "Bảo dưỡng"],
+    "description": "Tiệm sửa xe máy uy tín tại trung tâm Quận 1, chuyên sửa chữa các loại xe máy Nhật, Ý, Đài Loan và xe máy điện.",
+    "isPremium": false,
+    "rating": 4.5,
+    "openHours": "7:00 - 19:00",
+    "phone": "0912345678",
+    "type": "fixed",
+    "images": [
+      "https://images.unsplash.com/photo-1621359748542-a71eedcc04f1"
+    ],
+    "offers": [],
+    "priceReference": {
+      "Thay nhớt": "70.000đ - 250.000đ",
+      "Bảo dưỡng xe máy": "150.000đ - 500.000đ"
+    },
+    "status": "active"
+  },
+  {
+    "id": "shop-005",
+    "name": "AutoCare Phú Nhuận",
+    "address": "234 Phan Xích Long, Phú Nhuận, TP.HCM",
+    "service_area": ["Phú Nhuận", "Quận 3", "Quận Bình Thạnh"],
+    "services": ["Ô tô", "Bảo dưỡng", "Thay lốp", "Điều hòa"],
+    "description": "Trung tâm chăm sóc ô tô cao cấp với các dịch vụ toàn diện từ sửa chữa đến làm đẹp xe. Hệ thống tiêu chuẩn quốc tế.",
+    "isPremium": true,
+    "rating": 4.9,
+    "openHours": "8:00 - 20:00",
+    "phone": "0923456789",
+    "type": "fixed",
+    "images": [
+      "https://images.unsplash.com/photo-1632823471565-1ec29f5d9a4c",
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+    ],
+    "offers": [
+      "Tặng rửa xe khi bảo dưỡng",
+      "Giảm 20% cho khách hàng VIP",
+      "Bảo hành 12 tháng phụ tùng chính hãng"
+    ],
+    "priceReference": {
+      "Bảo dưỡng định kỳ": "800.000đ - 3.000.000đ",
+      "Kiểm tra và sửa điều hòa": "500.000đ - 2.000.000đ"
+    },
+    "status": "active"
+  },
+  {
+    "id": "shop-006",
+    "name": "Cứu Hộ Xe 24/7",
+    "address": null,
+    "service_area": ["TP.HCM"],
+    "services": ["Ô tô", "Xe máy", "Cứu hộ", "Kéo xe"],
+    "description": "Dịch vụ cứu hộ xe chuyên nghiệp hoạt động 24/7 tại TP.HCM, đáp ứng mọi tình huống khẩn cấp với đội ngũ kỹ thuật viên giàu kinh nghiệm.",
+    "isPremium": false,
+    "rating": 4.3,
+    "openHours": "0:00 - 24:00",
+    "phone": "0934567890",
+    "type": "mobile",
+    "images": [
+      "https://images.unsplash.com/photo-1631485153816-e57672f5cfbe"
+    ],
+    "offers": [],
+    "priceReference": {
+      "Cứu hộ xe máy": "200.000đ - 500.000đ",
+      "Cứu hộ ô tô": "500.000đ - 1.500.000đ",
+      "Kéo xe": "Từ 700.000đ"
+    },
+    "status": "active"
+  }
+]

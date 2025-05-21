@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for our repair shop app
+				repair: {
+					primary: '#1E88E5',    // Blue for primary actions
+					secondary: '#64B5F6',   // Lighter blue for secondary elements
+					accent: '#FFD54F',      // Yellow for accent/highlights
+					success: '#4CAF50',     // Green for success states
+					warning: '#FFA000',     // Amber for warnings
+					danger: '#F44336',      // Red for errors/danger
+					premium: '#FFC107',     // Gold for premium badges
+					dark: '#37474F',        // Dark blue-gray for text
+					light: '#ECEFF1',       // Light gray for backgrounds
+					muted: '#90A4AE',       // Muted blue-gray
 				}
 			},
 			borderRadius: {
@@ -84,11 +98,22 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.3s ease-out'
 			}
 		}
 	},

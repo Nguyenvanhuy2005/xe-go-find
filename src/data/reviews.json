@@ -1,0 +1,43 @@
+
+[
+  {
+    "id": "review-001",
+    "shopId": "shop-001",
+    "userId": "user-001",
+    "rating": 5,
+    "comment": "Dịch vụ chuyên nghiệp, giá cả hợp lý. Đội ngũ kỹ thuật viên làm việc nhanh và hiệu quả. Sẽ quay lại lần sau.",
+    "date": "2023-05-10T15:30:00"
+  },
+  {
+    "id": "review-002",
+    "shopId": "shop-002",
+    "userId": "user-004",
+    "rating": 4,
+    "comment": "Thợ đến đúng giờ, sửa xe nhanh. Giá hơi cao một chút nhưng được cái đến tận nơi nên cũng ổn.",
+    "date": "2023-05-12T09:15:00"
+  },
+  {
+    "id": "review-003",
+    "shopId": "shop-001",
+    "userId": "user-004",
+    "rating": 5,
+    "comment": "Garage rất chuyên nghiệp, tư vấn tận tình. Xe sửa xong chạy êm hơn trước rất nhiều.",
+    "date": "2023-05-14T14:20:00"
+  },
+  {
+    "id": "review-004",
+    "shopId": "shop-003",
+    "userId": "user-001",
+    "rating": 3,
+    "comment": "Dịch vụ ổn, thái độ tư vấn tốt nhưng thời gian chờ đợi hơi lâu.",
+    "date": "2023-05-08T11:45:00"
+  },
+  {
+    "id": "review-005",
+    "shopId": "shop-005",
+    "userId": "user-004",
+    "rating": 5,
+    "comment": "Trung tâm rất hiện đại, nhân viên chuyên nghiệp. Giá cao nhưng xứng đáng với chất lượng.",
+    "date": "2023-05-16T16:30:00"
+  }
+]

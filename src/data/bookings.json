@@ -1,0 +1,33 @@
+
+[
+  {
+    "id": "booking-001",
+    "shopId": "shop-001",
+    "userId": "user-001",
+    "time": "2023-05-20T10:00:00",
+    "vehicleType": "Ô tô",
+    "issue": "Thay lốp xe và kiểm tra phanh",
+    "deliveryAddress": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "booking-002",
+    "shopId": "shop-002",
+    "userId": "user-004",
+    "time": "2023-05-21T14:00:00",
+    "vehicleType": "Xe máy",
+    "issue": "Xe không nổ máy",
+    "deliveryAddress": "123 Nguyễn Văn Linh, Quận 7, TP.HCM",
+    "status": "pending"
+  },
+  {
+    "id": "booking-003",
+    "shopId": "shop-005",
+    "userId": "user-001",
+    "time": "2023-05-22T09:30:00",
+    "vehicleType": "Ô tô",
+    "issue": "Bảo dưỡng định kỳ",
+    "deliveryAddress": null,
+    "status": "confirmed"
+  }
+]

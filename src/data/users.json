@@ -1,0 +1,60 @@
+
+[
+  {
+    "id": "user-001",
+    "email": "khach@email.com",
+    "password": "password123",
+    "name": "Nguyễn Văn A",
+    "role": "customer",
+    "searchHistory": [
+      {
+        "query": "Quận 1",
+        "timestamp": "2023-05-15T08:30:00"
+      },
+      {
+        "query": "Sửa xe máy",
+        "timestamp": "2023-05-14T14:22:00"
+      }
+    ],
+    "bookings": ["booking-001", "booking-003"],
+    "reviews": ["review-001"]
+  },
+  {
+    "id": "user-002",
+    "email": "thop@email.com",
+    "password": "shoppassword",
+    "name": "Garage Minh Auto",
+    "role": "shop",
+    "shopId": "shop-001"
+  },
+  {
+    "id": "user-003",
+    "email": "admin@email.com",
+    "password": "adminpassword",
+    "name": "Admin",
+    "role": "admin"
+  },
+  {
+    "id": "user-004",
+    "email": "tranthi@email.com",
+    "password": "password456",
+    "name": "Trần Thị B",
+    "role": "customer",
+    "searchHistory": [
+      {
+        "query": "Thay lốp",
+        "timestamp": "2023-05-16T10:15:00"
+      }
+    ],
+    "bookings": ["booking-002"],
+    "reviews": ["review-002"]
+  },
+  {
+    "id": "user-005",
+    "email": "shophoang@email.com",
+    "password": "shoppass123",
+    "name": "Sửa Xe Tận Nơi Hoàng Anh",
+    "role": "shop",
+    "shopId": "shop-002"
+  }
+]
